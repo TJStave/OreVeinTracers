@@ -1,0 +1,57 @@
+{
+	"code": "oretracer",
+	"behaviors": [ {"name": "Decor", "properties": {"sides": ["north", "east", "south", "west", "up", "down"], "notFullFace":true, "thickness": 0.0 }} ],
+	"attributes": {
+		"handbook": {
+			"exclude": true
+		},
+		"ignoreSounds": true
+	},
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": ["flint"],
+			"loadFromPropertiesCombine": [ "block/ore-gem-rough", "block/ore-graded", "block/ore-ungraded" ]
+		}
+	],
+	"skipVariants": [
+		"oretracer-galena_nativesilver",
+		"oretracer-quartz_nativesilver",
+		"oretracer-quartz_nativegold",
+		"oretracer-olivine_peridot"
+	],
+	"renderPass": "OpaqueNoCull",
+	"drawtype": "surfacelayer",
+	"doNotRenderAtLod2": true,
+	"shapeInventory": {
+		"base": "game:block/basic/layers/0voxel", "rotateX": 90
+	},
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"blockmaterial": "Stone",
+	"creativeinventory": { "general": ["*"], "clutter": ["*"] },
+	"replaceable": 5500,
+	"resistance": 0,
+	"lightAbsorption": 0,
+	"textures": {
+		"all": {
+			"base": "oretracer{type}1",
+			"alternates": [
+				{ "base": "oretracer{type}2" },
+				{ "base": "oretracer{type}3" }
+			]
+		}
+	},
+	"vertexflags": {
+		"zOffset": 1
+	},
+	"drops": [],
+	"combustibleProps": {
+		"burnTemperature": 150,
+		"burnDuration": 2
+	},
+	"guiTransform": {
+		"origin": { "x": 0.5, "y": 0.5, "z": 0 }
+	},
+	"materialDensity": 400
+}

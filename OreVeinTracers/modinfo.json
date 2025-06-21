@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "oreveintracers",
+    "name": "Ore Vein Traces",
+    "authors": [
+        "PurplePi"
+    ],
+    "description": "Adds traces while mining ore to indicate where obscured ore blocks are",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": ""
+    }
+}
