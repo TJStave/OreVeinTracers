@@ -5,8 +5,8 @@
     "authors": [
         "PurplePi"
     ],
-    "description": "Adds traces while mining ore to indicate where obscured ore blocks are",
-    "version": "1.0.0",
+    "description": "Adds traces while mining ore to indicate where hidden ore blocks are",
+    "version": "1.1.0",
     "dependencies": {
         "game": ""
     }
